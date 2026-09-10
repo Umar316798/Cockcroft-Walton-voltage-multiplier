@@ -1,11 +1,12 @@
+# 6-Stage Cockcroft-Walton Voltage Multiplier PCB
 
 A compact, multi-stage hardware voltage multiplier circuit designed in **KiCad 9.0**. This design utilizes a cascading diode-capacitor ladder network to progressively clamp, rectify, and elevate an input AC or pulsed waveform into a high-voltage DC output.
 
 <p align="center">
-  <img src="3d_view.png" alt="PCB 3D Render View" width="550"/>
+<img width="1084" height="684" alt="image" src="https://github.com/user-attachments/assets/a7b00c96-05ee-44db-a729-c71a9234d203" />
   <br>
   <i>Figure 1: Completed 3D Assembly Render showing SMD Component Array</i>
-
+</p>
 
 ---
 
@@ -14,8 +15,8 @@ A compact, multi-stage hardware voltage multiplier circuit designed in **KiCad 9
 The hardware features an elegant symmetrical placement engineered to reduce current loop inductance while maximizing trace space distance between high potential differences.
 
 <p align="center">
-  <img src="schematic.png" alt="Circuit Schematic Diagram" width="48%"/>
-  <img src="pcb_layout.png" alt="2D Copper Layout Database" width="48%"/>
+  <img width="829" height="420" alt="image" src="https://github.com/user-attachments/assets/f3a59ac9-fb6e-4184-a79c-76e5bc0562db" />
+  <img width="923" height="726" alt="image" src="https://github.com/user-attachments/assets/655227f5-a7de-42f2-9af6-31e088254fcd" />
   <br>
   <i>Figure 2: Complete Design Walkthrough — Electrical Schematic (Left) vs. Dual-Layer Track Layout Routing (Right)</i>
 </p>
@@ -33,4 +34,5 @@ The hardware features an elegant symmetrical placement engineered to reduce curr
 
 1. **The Ladder Cascade:** Input voltage pulses shuffle charges along the capacitor ladder. Diodes act as electrical check-valves, locking charge peak values stage-by-stage.
 2. **SMD Footprint Optimization:** By replacing classic through-hole parts with low-profile **SOD-123** and **1206** footprints, parasitical inductance is nearly eliminated.
-3. **Safety Isolation:** **R1** and **R2** function as surge limitin
+3. **Safety Isolation:** **R1** and **R2** function as surge limiting protection variables, isolating input nodes from downstream high-voltage storage banks.
+
