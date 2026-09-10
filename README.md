@@ -1,4 +1,4 @@
-# 6-Stage Cockcroft-Walton Voltage Multiplier PCB
+# Cockcroft-Walton Voltage Multiplier PCB
 
 A voltage multiplier circuit designed in **KiCad 9.0**. This design uses a cascading diode-capacitor ladder network to rectify an input AC or pulsed waveform into a high-voltage DC output.
 
